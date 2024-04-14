@@ -13,6 +13,6 @@ pytz
 flask>=2.2.5
 gunicorn==20.1.0
 jinja2
-dnspython
+dnspython==2.3.0
 psutil
 wheel
