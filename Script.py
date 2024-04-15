@@ -4,7 +4,7 @@ class script(object):
 ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
 ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ
 
-ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Biisal">Bɪɪsᴀʟ</a></b> 😏</b>"""
+ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/infinity_botzz">ɪɴꜰɪɴɪᴛʏ ʙᴏᴛᴢ</a></b> 😏</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
@@ -27,7 +27,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>
  🤖 ᴍʏ ɴᴀᴍᴇ : {}
- 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Biisal'>Bɪɪsᴀʟ</a>
+ 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/mpbotzsupport_bot'>ᴍʀ ɪɴꜰɪɴɪᴛʏ</a>
  📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
  📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
  ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
@@ -58,7 +58,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/bisal_files)</code>
+<code>[Button Text](buttonurl:https://t.me/infinity_botzz)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -116,11 +116,13 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-    STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
-★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
+    STATUS_TXT = """<b>╭━━━━━━❰sᴛᴀᴛᴜs ʙᴀʀ❱══❍⊱❁۪۪
+┣⪼𖨠 🗃️ ᴛᴏᴛᴀʟ ꜰɪʟᴇs: <code>{}</code>
+┣⪼𖨠 👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
+┣⪼𖨠 ♻️ ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
+┣⪼𖨠 🗃️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code>
+┣⪼𖨠 🆓 ꜰʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code>
+╰━━❰ɪɴғɪɴɪᴛʏ ʙᴏᴛᴢ❱━══❍⊱❁۪۪</b>"""
 
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
@@ -221,7 +223,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><a href="https://t.me/DirectFilee_Bot">{file_name}
+    CAPTION = """<b><a href="https://t.me/hd_movies_hub01">{file_name}
 
 sɪᴢᴇ : {file_size}
 Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ</a></b>"""
