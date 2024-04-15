@@ -51,8 +51,12 @@ BUTTONS2 = {}
 SPELL_CHECK = {}
 ENABLE_SHORTLINK = ""
 
+#reactions
+REACTIONS = ["🔥", "❤️", "😍", "⚡"]
+
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client, message):
+    await message.react(emoji=random.choice(REACTIONS))
     if message.chat.id != SUPPORT_CHAT_ID:
         glob = await global_filters(client, message)
         if glob == False:
@@ -103,7 +107,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"):
         return  
     await message.reply_text(
-        text=f"<b>Nᴀᴍᴀsᴛʜᴇ {message.from_user.mention} Jɪ 😍 ,\n\nɪ ᴄᴀɴᴛ ɢɪᴠᴇ ᴍᴏᴠɪᴇ ʜᴇʀᴇ\nʏᴏᴜ ᴄᴀɴ ʀᴇǫᴜᴇsᴛ <a href={GRP_LNK}>ʜᴇʀᴇ</a> ᴏʀ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴜsᴇ ᴍᴇ</b>",
+        text=f"<b>Nᴀᴍᴀsᴛʜᴇ {message.from_user.mention} Jɪ 😍 ,\n\nɪ ᴄᴀɴᴛ ɢɪᴠᴇ ᴍᴏᴠɪᴇ ʜᴇʀᴇ\nʏᴏᴜ ᴄᴀɴ ʀᴇǫᴜᴇsᴛ <a href={GRP_LNK}>ʜᴇʀᴇ</a> ᴏʀ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴜsᴇ ᴍᴇ</b>",disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -2157,7 +2161,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("🤵ᴄᴏɴᴛᴀᴄᴛ", url="telegram.me/Biisal")
+                    InlineKeyboardButton("🤵ᴄᴏɴᴛᴀᴄᴛ", url="telegram.me/talk_mrs_bot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
