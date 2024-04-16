@@ -27,7 +27,7 @@ SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'radhe-radhe'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'bisal-ki-bot'))
+name = str(environ.get('name', 'sparrow-infinity'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
@@ -40,7 +40,7 @@ if HAS_SSL:
     URL = "https://{}/".format(FQDN)
 else:
     URL = "http://{}/".format(FQDN)
-REPO_OWNER = "Biisal"
+REPO_OWNER = "InfinityBotz"
 
 # Bot information
 SESSION = environ.get('SESSION', 'infinityfilter')
@@ -81,8 +81,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'onepagelink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f646357aa129cfbd7eb59bcba428096ab54ca950') #use my api so i can make some money 🤣..just kidding guys..mai already aamir hoon🥱 
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort. net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'b2da06188bd355e103d16ab1b56db314709740df') #use my api so i can make some money 🤣..just kidding guys..mai already aamir hoon🥱 
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'onepagelink.in')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'f646357aa129cfbd7eb59bcba428096ab54ca950')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
@@ -94,12 +94,12 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+EapqivvgHbc5YmY1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/infinity_botzz')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/links_tutorialbypp')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'Kʏᴀ ʀᴇ Bʜɪᴋᴍᴀɴɢᴀ 😑,Kʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ?')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ ?')
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002131380511'))
 VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002131380511'))
 NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002131380511'))
-BIN_CHNL = int(environ.get('BIN_CHNL', '-1002131380511'))
+BIN_CHNL = int(environ.get('BIN_CHNL', '-1001964309084'))
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+EapqivvgHbc5YmY1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
