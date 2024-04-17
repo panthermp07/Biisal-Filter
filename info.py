@@ -99,7 +99,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ ʟᴏᴏᴋɪ�
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002131380511'))
 VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002131380511'))
 NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002131380511'))
-BIN_CHNL = int(environ.get('BIN_CHNL', '-1001964309084'))
+BIN_CHNL = int(environ.get('BIN_CHNL', '-1002131380511'))
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+EapqivvgHbc5YmY1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
