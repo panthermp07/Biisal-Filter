@@ -40,7 +40,7 @@ if HAS_SSL:
     URL = "https://{}/".format(FQDN)
 else:
     URL = "http://{}/".format(FQDN)
-REPO_OWNER = "Biisal"
+REPO_OWNER = "infinity_botzz"
 
 # Bot information
 SESSION = environ.get('SESSION', 'infinityfilter')
@@ -55,7 +55,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/cd16a80421a63c71c00a5.mp4')).split() #use a gif video 🫠
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/6f55d902f9bf2d0afd4bb.mp4")
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/b9e284cf7014f4b61d61a.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
@@ -99,7 +99,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ ʟᴏᴏᴋɪ�
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002131380511'))
 VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002131380511'))
 NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002131380511'))
-BIN_CHNL = int(environ.get('BIN_CHNL', '-1002131380511'))
+BIN_CHNL = int(environ.get('BIN_CHNL', '-1001964309084'))
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+EapqivvgHbc5YmY1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
@@ -118,7 +118,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
-CLOSE_IMG = (environ.get('CLOSE_IMG', 'https://telegra.ph/file/d44eba716dde5861ec41c.jpg')).split()
+CLOSE_IMG = (environ.get('CLOSE_IMG', 'https://graph.org/file/992780f5f2fc9904b7924.jpg')).split()
 
 LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan" , "bengali" , "ben"]
 SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "season 6" , "season 7" , "season 8" , "season 9" , "season 10" , "season 11" , "season 12"]
