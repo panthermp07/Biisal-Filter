@@ -27,7 +27,7 @@ SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'radhe-radhe'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'bisal-ki-bot'))
+name = str(environ.get('name', 'sparrow-infinitybotz'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
@@ -40,7 +40,7 @@ if HAS_SSL:
     URL = "https://{}/".format(FQDN)
 else:
     URL = "http://{}/".format(FQDN)
-REPO_OWNER = "Biisal"
+REPO_OWNER = "infinity_botzz"
 
 # Bot information
 SESSION = environ.get('SESSION', 'infinityfilter')
@@ -53,9 +53,9 @@ STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQe
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/cd16a80421a63c71c00a5.mp4')).split() #use a gif video 🫠
+PICS = (environ.get('PICS', 'https://graph.org/file/829be0eebb24c1763cd20.mp4')).split() #use a gif video 🫠
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/6f55d902f9bf2d0afd4bb.mp4")
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/b9e284cf7014f4b61d61a.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
@@ -86,7 +86,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', 'b2da06188bd355e103d16ab1b56db31470
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'onepagelink.in')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'f646357aa129cfbd7eb59bcba428096ab54ca950')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()] #Add a channel ID here. When you send any file to this channel, the bot will delete the file details from the MongoDB 
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001858701768').split()] #Add a channel ID here. When you send any file to this channel, the bot will delete the file details from the MongoDB 
 MAX_B_TN = environ.get("MAX_B_TN", "20")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
@@ -99,7 +99,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ ʟᴏᴏᴋɪ�
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002131380511'))
 VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002131380511'))
 NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002131380511'))
-BIN_CHNL = int(environ.get('BIN_CHNL', '-1002131380511'))
+BIN_CHNL = int(environ.get('BIN_CHNL', '-1001964309084'))
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+EapqivvgHbc5YmY1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
@@ -118,7 +118,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
-CLOSE_IMG = (environ.get('CLOSE_IMG', 'https://telegra.ph/file/d44eba716dde5861ec41c.jpg')).split()
+CLOSE_IMG = (environ.get('CLOSE_IMG', 'https://graph.org/file/992780f5f2fc9904b7924.jpg')).split()
 
 LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan" , "bengali" , "ben"]
 SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "season 6" , "season 7" , "season 8" , "season 9" , "season 10" , "season 11" , "season 12"]
