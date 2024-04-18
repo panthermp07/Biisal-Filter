@@ -480,7 +480,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     
       ###this button will show when someone choose a language  
     if not settings["button"]:
-      btn.insert(0, 
+        btn.insert(0, 
         [
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
