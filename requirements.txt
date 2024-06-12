@@ -10,8 +10,8 @@ git+https://github.com/Joelkb/cinemagoer
 shortzy
 datetime
 pytz
-flask>=2.2.5
-gunicorn==20.1.0
+flask
+gunicorn
 jinja2
 dnspython
 psutil
